@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'poppins';
+
+}
+
+.main{
+    max-width: 1080px;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main h1{
+    width: 40rem;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main h1 span{
+    font-size: 3rem;
+    text-shadow: 2px 2px rgb(235, 235, 235);
+    color: rgb(8, 127, 20);
+}
+
+.main p{
+
+    display: none;
+    font-size: 3rem;
+    text-shadow: 2px 2px rgb(235, 235, 235);
+    color: rgb(8, 127, 20);
+    padding:50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
